@@ -1,0 +1,76 @@
+.img-bar{
+    background-image: url(../imagens/fotos/img-bar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+
+#mais-pedidos{
+    padding-top: 70px;
+}
+#mais-pedidos > h2{
+    margin-left: 80px;
+}
+
+#fotos-pedidos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa-foto{
+    width: 240px;
+    height:450px ;
+
+    /* background-color: lightgrey; */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.caixa-foto > img{
+    height:370px;
+}
+
+.botao-pedir{
+    width: 310px;
+    height: 60px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 70px;
+}
+.botao-pedir > a{
+    text-decoration: none;
+    color: white;
+
+    font-size: 32px;
+    font-family:'Josefin Slab', 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 200px;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+footer > img{
+    padding-right: 5px;
+
+}

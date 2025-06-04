@@ -1,0 +1,54 @@
+h1{
+    font-family: 'Josefin Slab', 'Times New Roman', Times, serif;
+
+}
+main{
+    margin-top: 150px;
+}
+
+section{
+    margin: auto;
+}
+
+.sobre{
+    margin: auto;
+
+    width: 700px;
+
+    text-align: center;
+}
+
+.infos{
+    text-align: center;
+    margin-top: 150px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.local{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+footer{
+    margin-top: 90px;
+    
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    margin:auto;
+    width: 80%;
+}
+
+.footer-img{
+    align-self: center;
+}
+
+.footer-img > a >img{
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 28px;
+}

@@ -1,0 +1,21 @@
+#eventos {
+    width: 98vw;
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.evento {
+    text-align: center;
+    padding-bottom: 5px;
+
+    margin-top: 70px;
+}
+
+.evento > img {
+    width: 100%;
+    max-width:  500px;
+}
