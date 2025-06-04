@@ -50,3 +50,10 @@ ul > li > a{
     font-weight:500;
 
 }
+
+.nome-secao {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 50px;
+    font-weight: bold;
+}

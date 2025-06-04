@@ -32,6 +32,16 @@
     align-items: center;
 
     text-align: center;
+    text-decoration: none;
+    color: black;
+
+    border-radius: 10px;
+
+    transition: background-color 0.3s;
+}
+
+.caixa-foto:hover {
+    background: #F7AA0F;
 }
 
 .caixa-foto > img{
