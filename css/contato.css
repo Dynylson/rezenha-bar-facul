@@ -1,7 +1,3 @@
-main{
-    margin-top: 150px;
-}
-
 section{
     margin: auto;
 }
@@ -37,6 +33,15 @@ footer{
 hr{
     margin:auto;
     width: 80%;
+}
+
+.info-container {
+    margin-bottom: 30px;
+}
+
+.info-container .sobre {
+    margin-top: 60px;
+    font-size: 18px;
 }
 
 .footer-img{
