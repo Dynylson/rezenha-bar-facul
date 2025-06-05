@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendamento.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="shortcut icon" href="imagens/rezenha-favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Agendamento</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="imagens/img-logo.png" alt="" class="img-logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="cadapio.html">Cardápio</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="nome-secao" style="margin-bottom: 30px;">Agendamento</h1>
+
+        <div class="container">
+            <form action="" class="agendamento-form">
+                <h2>Agendamento</h2>
+                <div class="campos-container">
+                    <div class="campo" style="margin-bottom: 15px;">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="data-hora-container">
+                        <div class="campo">
+                            <label for="data" style="margin-right: 10px;">Data:</label>
+                            <input type="date" name="data" id="data">
+                        </div>
+                        <div class="campo">
+                            <label for="hora">Hora:</label>
+                            <input type="time" name="hora" id="hora">
+                        </div>
+                        <button class="btn-agendar">Agendar</button>
+                    </div>
+                </div>
+            </form>
+
+            <div style="margin: 50px;">
+                <div style="width: 100%;">
+                    <p 
+                        style="background: #6D6D6D; width: 700px; padding: 10px; color: white; margin-left: auto;
+                        text-align: center; font-size: 24px;">
+                        Churrasqueira
+                    </p>
+                </div>
+                <div class="mesas-container">
+                    <img src="imagens/mesa.svg" class="mesa-svg-pequena" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                </div>
+                <div class="mesas-container">
+                    <img src="imagens/mesa.svg" class="mesa-svg-pequena" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                </div>
+                <div class="mesas-container">
+                    <img src="imagens/mesa.svg" class="mesa-svg-pequena" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa" style="margin-left: 110px;">
+                    <p 
+                        style="background: #6D6D6D; width: 300px;padding: 10px; color: white;
+                        text-align: center; font-size: 24px;">
+                        TV
+                    </p>
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                </div>
+                <div class="mesas-container">
+                    <img src="imagens/mesa.svg" class="mesa-svg-pequena" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                </div>
+                <div class="mesas-container">
+                    <img src="imagens/mesa.svg" class="mesa-svg-pequena" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                    <img src="imagens/mesa.svg" class="mesa-svg" alt="Mesa">
+                </div>
+                <div class="banheiros">
+                    <p 
+                        style="background: #6D6D6D; width: 500px; padding: 10px; color: white;
+                        text-align: center; font-size: 24px;">
+                        Banheiro
+                    </p>
+                    <p 
+                        style="background: #6D6D6D; width: 500px; padding: 10px; color: white;
+                        text-align: center; font-size: 24px;">
+                        Banheiro
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
